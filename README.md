@@ -9,6 +9,7 @@
 
 <p aling="center">
  <img alt="Licence" src="https://img.shields.io/static/v1?label=license&message=MIT&color=AA26&labelColor=000000">
+
 </p>
 
 <br>
@@ -17,6 +18,7 @@
 
 <p aling="center">
  <video autoplay loop src='./public/rando-quote.mp4'></video>
+ <video src="https://user-images.githubusercontent.com/95388382/209615258-0d4c63bf-4b0d-48bc-966a-72b6f593ce16.mp4" autoplay></video>
 </p>
 
 ## 🚀 Tecnologias
@@ -33,7 +35,7 @@ This project was developed with the following technology:
 
 I created a random quote to train react and bootstrap.
 
-Live Preview: url aqui
+Live Preview: https://my-random-quote-react.netlify.app/
 
 ## :memo: Licença
 
