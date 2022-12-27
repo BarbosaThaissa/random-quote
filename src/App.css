@@ -1,9 +1,95 @@
-.App {
-  text-align: center;
-  background-color: pink;
-  height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 
-h1 {
-  margin: 0;
+body {
+  background-color: var(--bs-cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: var(--bs-cyan);
+  font-family: "Poppins", sans-serif;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+#quote-box {
+  border-radius: 4px;
+  width: 28.125rem;
+  height: auto;
+  padding: 2.5rem 3.125rem;
+  background-color: #fff;
+}
+
+#quote-box .quote-text {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+#quote-box .quote-author {
+  height: auto;
+  width: 100%;
+  clear: both;
+  padding-top: 1.3rem;
+  font-size: 1em;
+  text-align: right;
+}
+
+#quote-box .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#quote-box .buttons .button {
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: var(--bs-cyan);
+  outline: none;
+  font-size: 1rem;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#quote-box .buttons .button#tweet-quote {
+  height: 40px;
+}
+
+#quote-box .buttons .button:hover {
+  color: #fff;
+  background-color: var(--bs-black);
+  transition: 0.4s;
+  -webkit-transform: scale(1.03);
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: var(--bs-black);
+  transition: 0.2s;
 }
